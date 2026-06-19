@@ -242,3 +242,8 @@ A short demo video showing:
 - Click handling
 - Error scenarios
 
+## Demo Video
+
+Google Drive Link:
+https://drive.google.com/file/d/1qhXct10hkin91Ut7bWnEGlvABd249IAr/view?usp=drive_link
+
