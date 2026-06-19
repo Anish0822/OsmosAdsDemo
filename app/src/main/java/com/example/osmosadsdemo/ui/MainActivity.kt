@@ -216,6 +216,7 @@ class MainActivity : AppCompatActivity() {
                             errorCallback = null
                         )
                     Log.d("OSMOS", "Impression Fired")
+                    binding.tvEvent.text = "Event: Impression Fired"
                 }
             } catch (e: Exception) {
                 Log.e(
@@ -233,6 +234,7 @@ class MainActivity : AppCompatActivity() {
                             cliUbid = "Any", uclid = it, trackingParams = null, errorCallback = null
                         )
                     Log.d("OSMOS", "Click Fired")
+                    binding.tvEvent.text = "Event: Click Fired"
                 }
             } catch (e: Exception) {
                 Log.e(
